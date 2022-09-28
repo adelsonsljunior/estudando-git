@@ -29,6 +29,6 @@ public abstract class Produto{
         System.out.println("Preço: " + preco);
     }
 
-    public abstract float calcularDesconto();
+    public abstract float calcularDesconto(String dia);
 
 }
